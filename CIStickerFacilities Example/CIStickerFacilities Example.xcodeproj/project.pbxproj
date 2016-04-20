@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFF7AEE1CC672CA00C9886C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF7AED1CC672CA00C9886C /* main.m */; };
+		0CFF7AF11CC672CA00C9886C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF7AF01CC672CA00C9886C /* AppDelegate.m */; };
+		0CFF7AF41CC672CA00C9886C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF7AF31CC672CA00C9886C /* ViewController.m */; };
+		0CFF7AF71CC672CA00C9886C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF7AF51CC672CA00C9886C /* Main.storyboard */; };
+		0CFF7AF91CC672CA00C9886C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF7AF81CC672CA00C9886C /* Assets.xcassets */; };
+		0CFF7AFC1CC672CA00C9886C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFF7AFA1CC672CA00C9886C /* LaunchScreen.storyboard */; };
+		0CFF7B061CC676C900C9886C /* CIStickerFacilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF7B051CC676C900C9886C /* CIStickerFacilities.m */; };
+		0CFF7B0C1CC6771600C9886C /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF7B0B1CC6771600C9886C /* DAKeyboardControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CFF7AE91CC672CA00C9886C /* CIStickerFacilities Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIStickerFacilities Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFF7AED1CC672CA00C9886C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CFF7AEF1CC672CA00C9886C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CFF7AF01CC672CA00C9886C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CFF7AF21CC672CA00C9886C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CFF7AF31CC672CA00C9886C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CFF7AF61CC672CA00C9886C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CFF7AF81CC672CA00C9886C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CFF7AFB1CC672CA00C9886C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CFF7AFD1CC672CA00C9886C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFF7B041CC676C900C9886C /* CIStickerFacilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIStickerFacilities.h; path = ../CIStickerFacilities/CIStickerFacilities.h; sourceTree = "<group>"; };
+		0CFF7B051CC676C900C9886C /* CIStickerFacilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIStickerFacilities.m; path = ../CIStickerFacilities/CIStickerFacilities.m; sourceTree = "<group>"; };
+		0CFF7B0A1CC6771600C9886C /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		0CFF7B0B1CC6771600C9886C /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CFF7AE61CC672CA00C9886C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFF7AE01CC672CA00C9886C = {
+			isa = PBXGroup;
+			children = (
+				0CFF7B031CC676AE00C9886C /* CIStickerFacilities */,
+				0CFF7AEB1CC672CA00C9886C /* CIStickerFacilities Example */,
+				0CFF7AEA1CC672CA00C9886C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CFF7AEA1CC672CA00C9886C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF7AE91CC672CA00C9886C /* CIStickerFacilities Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CFF7AEB1CC672CA00C9886C /* CIStickerFacilities Example */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF7AEF1CC672CA00C9886C /* AppDelegate.h */,
+				0CFF7AF01CC672CA00C9886C /* AppDelegate.m */,
+				0CFF7AF21CC672CA00C9886C /* ViewController.h */,
+				0CFF7AF31CC672CA00C9886C /* ViewController.m */,
+				0CFF7AF51CC672CA00C9886C /* Main.storyboard */,
+				0CFF7AF81CC672CA00C9886C /* Assets.xcassets */,
+				0CFF7AFA1CC672CA00C9886C /* LaunchScreen.storyboard */,
+				0CFF7AFD1CC672CA00C9886C /* Info.plist */,
+				0CFF7B091CC6771600C9886C /* DAKeyboardControl */,
+				0CFF7AEC1CC672CA00C9886C /* Supporting Files */,
+			);
+			path = "CIStickerFacilities Example";
+			sourceTree = "<group>";
+		};
+		0CFF7AEC1CC672CA00C9886C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF7AED1CC672CA00C9886C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CFF7B031CC676AE00C9886C /* CIStickerFacilities */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF7B041CC676C900C9886C /* CIStickerFacilities.h */,
+				0CFF7B051CC676C900C9886C /* CIStickerFacilities.m */,
+			);
+			name = CIStickerFacilities;
+			sourceTree = "<group>";
+		};
+		0CFF7B091CC6771600C9886C /* DAKeyboardControl */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF7B0A1CC6771600C9886C /* DAKeyboardControl.h */,
+				0CFF7B0B1CC6771600C9886C /* DAKeyboardControl.m */,
+			);
+			path = DAKeyboardControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CFF7AE81CC672CA00C9886C /* CIStickerFacilities Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFF7B001CC672CA00C9886C /* Build configuration list for PBXNativeTarget "CIStickerFacilities Example" */;
+			buildPhases = (
+				0CFF7AE51CC672CA00C9886C /* Sources */,
+				0CFF7AE61CC672CA00C9886C /* Frameworks */,
+				0CFF7AE71CC672CA00C9886C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIStickerFacilities Example";
+			productName = "CIStickerFacilities Example";
+			productReference = 0CFF7AE91CC672CA00C9886C /* CIStickerFacilities Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CFF7AE11CC672CA00C9886C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carlos Irano";
+				TargetAttributes = {
+					0CFF7AE81CC672CA00C9886C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0CFF7AE41CC672CA00C9886C /* Build configuration list for PBXProject "CIStickerFacilities Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CFF7AE01CC672CA00C9886C;
+			productRefGroup = 0CFF7AEA1CC672CA00C9886C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CFF7AE81CC672CA00C9886C /* CIStickerFacilities Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CFF7AE71CC672CA00C9886C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFF7AFC1CC672CA00C9886C /* LaunchScreen.storyboard in Resources */,
+				0CFF7AF91CC672CA00C9886C /* Assets.xcassets in Resources */,
+				0CFF7AF71CC672CA00C9886C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFF7AE51CC672CA00C9886C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFF7AF41CC672CA00C9886C /* ViewController.m in Sources */,
+				0CFF7AF11CC672CA00C9886C /* AppDelegate.m in Sources */,
+				0CFF7B0C1CC6771600C9886C /* DAKeyboardControl.m in Sources */,
+				0CFF7B061CC676C900C9886C /* CIStickerFacilities.m in Sources */,
+				0CFF7AEE1CC672CA00C9886C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CFF7AF51CC672CA00C9886C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFF7AF61CC672CA00C9886C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CFF7AFA1CC672CA00C9886C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFF7AFB1CC672CA00C9886C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CFF7AFE1CC672CA00C9886C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CFF7AFF1CC672CA00C9886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CFF7B011CC672CA00C9886C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CIStickerFacilities Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlos-Irano.CIStickerFacilities-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CFF7B021CC672CA00C9886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CIStickerFacilities Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlos-Irano.CIStickerFacilities-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CFF7AE41CC672CA00C9886C /* Build configuration list for PBXProject "CIStickerFacilities Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFF7AFE1CC672CA00C9886C /* Debug */,
+				0CFF7AFF1CC672CA00C9886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CFF7B001CC672CA00C9886C /* Build configuration list for PBXNativeTarget "CIStickerFacilities Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFF7B011CC672CA00C9886C /* Debug */,
+				0CFF7B021CC672CA00C9886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CFF7AE11CC672CA00C9886C /* Project object */;
+}

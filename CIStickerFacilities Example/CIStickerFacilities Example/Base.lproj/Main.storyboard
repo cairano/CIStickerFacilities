@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Pyw-Ax-qsT" appends="YES" id="n4h-GG-L5m"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="keyboardView" destination="rRJ-JX-47V" id="mQg-Tq-gj3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Pyw-Ax-qsT">
+                    <connections>
+                        <action selector="didTapScreen:" destination="BYZ-38-t0r" id="aLP-Aa-125"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <view contentMode="scaleToFill" id="rRJ-JX-47V">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x03-Af-2Ek">
+                            <rect key="frame" x="8" y="6" width="73" height="61"/>
+                            <state key="normal" title="Goofy" image="Goofy"/>
+                            <connections>
+                                <action selector="attachStickerWithMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6xz-Fq-W3x"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eJ-Ur-LgY">
+                            <rect key="frame" x="89" y="8" width="69" height="71"/>
+                            <state key="normal" title="yoda" image="yoda"/>
+                            <connections>
+                                <action selector="attachStickerWithMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n0g-1B-PE9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zZ-Hr-TPP">
+                            <rect key="frame" x="229" y="8" width="68" height="76"/>
+                            <state key="normal" title="MickeyMouse" image="MicheyMouse"/>
+                            <connections>
+                                <action selector="sendSticker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H0d-1h-S3q"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.85354630239999996" green="0.85354630239999996" blue="0.85354630239999996" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="375" y="305"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Goofy" width="618" height="432"/>
+        <image name="MicheyMouse" width="556" height="486"/>
+        <image name="yoda" width="480" height="611"/>
+    </resources>
+</document>
