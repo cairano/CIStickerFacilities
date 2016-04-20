@@ -6,7 +6,7 @@ Attach an image as a sticker in a chat conversation, or as an emoji in a UITextV
 
 Is not finished yet... All kinds of contributions are welcome!
 
-This is a project that I have been working,  just for practicing. The result is a class that can help create a chat using your own images as stickers or emojis.
+This is a project that I've been working,  just for practicing. The result is a class that can help create a chat using your own images as stickers or emojis.
 
 What I'm doing next:
 
